@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>prodoct project</title>
+</head>
+<body>
+    <header>
+        <p>product project</p>
+    </header>
+    <main>
+         <div id="search">
+            <input type="text" placeholder="Search name" id="search-text" class="input" />
+         </div>
+         <div>
+            <button class="filter button selected" data-filter="all">All</button>
+            <button class="filter button" data-filter="tech">Tech</button>
+            <button class="filter button" data-filter="clothing">Clothing</button>
+            <button class="filter button" data-filter="health">Health</button>
+         </div>
+        <div id="price">
+            <input type="number" placeholder="Search price" id="search-number" class="input" />
+            <button class="button">Search</button>
+        </div>
+        <div id="product">
+            <div class="product-item" data-category="tech">
+                <img src="./img/iphone.png" alt="phon">
+                <p>Apple iphone 14 pro</p>
+                <span>$ 1499</span>
+            </div>
+            <div class="product-item" data-category="clothing">
+                <img src="./img/shoes.png" alt="shoes">
+                <p>Running shoes</p>
+                <span>$ 199</span>
+            </div>
+            <div class="product-item" data-category="tech">
+                <img src="./img/watch.png" alt="watch">
+                <p>Apple watch</p>
+                <span>$ 399</span>
+            </div>
+            <div class="product-item" data-category="clothing">
+                <img src="./img/bag.png" alt="bag">
+                <p>College bag</p>
+                <span>$ 139</span>
+            </div>
+            <div class="product-item" data-category="clothing">
+                <img src="./img/jacket.png" alt="jacket">
+                <p>Boy's jacket</p>
+                <span>$ 169</span>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="./img/cream.png" alt="cream">
+                <p>Keratin Hair Care</p>
+                <span>$ 39</span>
+            </div>
+        </div>
+
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>
